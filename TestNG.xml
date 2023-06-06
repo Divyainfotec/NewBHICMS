@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false"  name="BHI_AGAG_CMS">
+<listeners>
+		<listener class-name="com.bhicmspkg.Utility.Reporting" />
+</listeners>
+ <test name="RegressionTest_AGAG-CMS" enabled="false"> <!--  Major functionalities section-->
+    <classes>
+    <!--  <class name="com.bhicmspkg.Tests.LoginTest" /> 
+     <class name="com.bhicmspkg.Tests.CompanycreationTest"/>
+      <class name="com.bhicmspkg.Tests.UserCreationTest"/>
+     <class name="com.bhicmspkg.Tests.ClientCreationTest"/>
+      <class name="com.bhicmspkg.Tests.VendorTest"/>
+      <class name="com.bhicmspkg.Tests.CreateProjectTest"/>-->
+      
+      <class name="com.bhicmspkg.Tests.Sales_QuotationGeneratorTest"/>
+       <class name="com.bhicmspkg.Tests.PurchaseTest"/>
+       <class name="com.bhicmspkg.Tests.DailyExpenseTest"/>
+       <class name="com.bhicmspkg.Tests.DaybookTest"/>
+       <class name="com.bhicmspkg.Tests.LabourReportTest"/>
+       
+       <class name="com.bhicmspkg.Tests.WarehouseTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="RegressionTest_AGAG-CMS"  enabled="false"> <!--  Major functionalities section-->
+    <classes>
+    
+     <class name="com.bhicmspkg.Tests.PurchaseItemMasterTest"/>
+      <class name="com.bhicmspkg.Tests.MastersalesTest"/>
+    </classes>
+  </test> <!--  <class name="com.bhicmspkg.Tests."/> Test -->
+   <test name="RegressionTest_AGAG-CMS"  > <!--  Major functionalities section-->
+    <classes>
+    <class name="com.bhicmspkg.Tests.PurchaseTest"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

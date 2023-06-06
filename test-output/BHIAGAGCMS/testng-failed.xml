@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BHIAGAGCMS]">
+  <listeners>
+    <listener class-name="com.bhicmspkg.Utility.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="RegressionTest_AgagCMS(failed)">
+    <classes>
+      <class name="com.bhicmspkg.Tests.LoginTest">
+        <methods>
+          <include name="Verifytitle"/>
+          <include name="Launchbrowser"/>
+          <include name="teardown"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- com.bhicmspkg.Tests.LoginTest -->
+    </classes>
+  </test> <!-- RegressionTest_AgagCMS(failed) -->
+</suite> <!-- Failed suite [BHIAGAGCMS] -->

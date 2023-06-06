@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BHI_AGAG_CMS]">
+  <listeners>
+    <listener class-name="com.bhicmspkg.Utility.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="RegressionTest_AGAG-CMS(failed)">
+    <classes>
+      <class name="com.bhicmspkg.Tests.PurchaseTest">
+        <methods>
+          <include name="PurchaseOrder_Bill"/>
+          <include name="Login"/>
+          <include name="Launchbrowser"/>
+          <include name="PurchaseOrderCreation"/>
+          <include name="PurchaseOrder_Approval"/>
+          <include name="teardown"/>
+          <include name="Purchasebill_Edit"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- com.bhicmspkg.Tests.PurchaseTest -->
+    </classes>
+  </test> <!-- RegressionTest_AGAG-CMS(failed) -->
+</suite> <!-- Failed suite [BHI_AGAG_CMS] -->
